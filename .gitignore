@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (keep knowledge_base.json, but exclude anything sensitive)
+*.log
+*.db
+*.sqlite3
+
+# Environment variables
+.env

@@ -1,0 +1,289 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "good afternoon", "greetings", "hii", "hlo", "namaste"],
+      "responses": ["Hello! 👋 Welcome to Sanjivani College. How can I help you today?", "Hi there! Ask me about admissions, courses, fees, placements, or anything else.", "Hey! I'm here to help with your college queries."]
+    },
+    {
+      "tag": "about",
+      "patterns": ["about college", "tell me about sanjivani", "college information", "about sanjivani college", "information about college", "college kya hai", "college ke bare me batao"],
+      "responses": ["__KB__about.info"]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": ["admission process", "how to get admission", "how can i apply", "admission procedure", "admission details", "how to take admission", "apply for admission"],
+      "responses": ["__KB__admissions.process"]
+    },
+    {
+      "tag": "admission_eligibility",
+      "patterns": ["eligibility for admission", "who can apply", "minimum marks required", "admission criteria", "qualification required"],
+      "responses": ["__KB__admissions.eligibility"]
+    },
+    {
+      "tag": "admission_documents",
+      "patterns": ["documents required for admission", "what documents to bring", "required certificates", "paperwork for admission"],
+      "responses": ["__KB__admissions.documents"]
+    },
+    {
+      "tag": "admission_contact",
+      "patterns": ["admission contact", "admission office number", "whom to contact for admission"],
+      "responses": ["__KB__admissions.contact"]
+    },
+    {
+      "tag": "admission_general",
+      "patterns": ["admission", "tell me about admission", "admission info", "admission query", "i want admission"],
+      "responses": ["__KB__admissions.process"]
+    },
+    {
+      "tag": "courses_btech",
+      "patterns": ["btech courses", "undergraduate courses", "b.e courses", "bachelor degree", "ug courses", "engineering branches"],
+      "responses": ["__KB__courses.btech"]
+    },
+    {
+      "tag": "courses_mtech",
+      "patterns": ["mtech courses", "postgraduate courses", "m.e courses", "master degree", "pg courses"],
+      "responses": ["__KB__courses.mtech"]
+    },
+    {
+      "tag": "courses_list",
+      "patterns": ["what courses do you offer", "list of courses", "which branches available", "available programs", "all courses", "courses offered", "which courses"],
+      "responses": ["__KB__courses.list"]
+    },
+    {
+      "tag": "courses_general",
+      "patterns": ["courses", "tell me about courses", "course info", "programs available"],
+      "responses": ["__KB__courses.list"]
+    },
+    {
+      "tag": "fees_btech",
+      "patterns": ["btech fees", "engineering fees", "tuition fee for btech", "how much for btech"],
+      "responses": ["__KB__fees.btech"]
+    },
+    {
+      "tag": "fees_mtech",
+      "patterns": ["mtech fees", "pg fees", "tuition fee for mtech"],
+      "responses": ["__KB__fees.mtech"]
+    },
+    {
+      "tag": "fees_hostel",
+      "patterns": ["hostel fees", "hostel charges", "hostel cost", "fees for hostel"],
+      "responses": ["__KB__fees.hostel"]
+    },
+    {
+      "tag": "fees_general",
+      "patterns": ["fees", "fee structure", "what is the fee", "how much is tuition", "college fees", "fee details", "total fees", "annual fees"],
+      "responses": ["__KB__fees.btech"]
+    },
+    {
+      "tag": "dept_computer",
+      "patterns": ["computer department", "cs department", "computer engineering", "tell me about computer", "cse department", "computer branch"],
+      "responses": ["__KB__departments.computer"]
+    },
+    {
+      "tag": "dept_it",
+      "patterns": ["it department", "information technology", "tell me about it", "it branch", "it department info"],
+      "responses": ["__KB__departments.it"]
+    },
+    {
+      "tag": "dept_entc",
+      "patterns": ["entc department", "electronics department", "telecommunication", "e&tc", "tell me about entc"],
+      "responses": ["__KB__departments.entc"]
+    },
+    {
+      "tag": "dept_mech",
+      "patterns": ["mechanical department", "mech department", "tell me about mechanical"],
+      "responses": ["__KB__departments.mechanical"]
+    },
+    {
+      "tag": "dept_civil",
+      "patterns": ["civil department", "tell me about civil", "civil engineering"],
+      "responses": ["__KB__departments.civil"]
+    },
+    {
+      "tag": "dept_elec",
+      "patterns": ["electrical department", "tell me about electrical", "electrical engineering"],
+      "responses": ["__KB__departments.electrical"]
+    },
+    {
+      "tag": "dept_aids",
+      "patterns": ["ai department", "ai and ds", "data science department", "artificial intelligence department", "aiml department", "tell me about ai"],
+      "responses": ["__KB__departments.aids"]
+    },
+    {
+      "tag": "departments_general",
+      "patterns": ["departments", "list of departments", "which departments", "all departments", "branches"],
+      "responses": ["__KB__departments.list"]
+    },
+    {
+      "tag": "scholarships_government",
+      "patterns": ["government scholarship", "govt scholarship", "state scholarship", "central scholarship"],
+      "responses": ["__KB__scholarships.government"]
+    },
+    {
+      "tag": "scholarships_institute",
+      "patterns": ["institute scholarship", "college scholarship", "merit scholarship"],
+      "responses": ["__KB__scholarships.institute"]
+    },
+    {
+      "tag": "scholarships_process",
+      "patterns": ["how to apply for scholarship", "scholarship application", "scholarship process"],
+      "responses": ["__KB__scholarships.process"]
+    },
+    {
+      "tag": "scholarships_general",
+      "patterns": ["scholarship", "scholarships available", "any scholarship", "financial aid", "fee waiver", "scholarship info"],
+      "responses": ["__KB__scholarships.government"]
+    },
+    {
+      "tag": "exam_pattern",
+      "patterns": ["exam pattern", "examination pattern", "marks distribution", "how exams are conducted"],
+      "responses": ["__KB__examinations.pattern"]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": ["exam schedule", "when are exams", "exam dates", "exam timetable"],
+      "responses": ["__KB__examinations.schedule"]
+    },
+    {
+      "tag": "exam_results",
+      "patterns": ["results", "exam results", "where to see results", "result declaration"],
+      "responses": ["__KB__examinations.results"]
+    },
+    {
+      "tag": "exam_general",
+      "patterns": ["exams", "examination", "tell me about exams", "exam details"],
+      "responses": ["__KB__examinations.pattern"]
+    },
+    {
+      "tag": "placement_stats",
+      "patterns": ["placement statistics", "placement percentage", "average package", "highest package", "placement record"],
+      "responses": ["__KB__placements.stats"]
+    },
+    {
+      "tag": "placement_companies",
+      "patterns": ["companies visiting", "which companies", "recruiters", "top recruiters", "companies come for placement"],
+      "responses": ["__KB__placements.companies"]
+    },
+    {
+      "tag": "placement_training",
+      "patterns": ["placement training", "interview preparation", "aptitude training", "placement cell"],
+      "responses": ["__KB__placements.training"]
+    },
+    {
+      "tag": "placement_internship",
+      "patterns": ["internship", "internships available", "internship opportunities"],
+      "responses": ["__KB__placements.internship"]
+    },
+    {
+      "tag": "placement_general",
+      "patterns": ["placements", "placement details", "job opportunities", "placement info", "campus placement"],
+      "responses": ["__KB__placements.stats"]
+    },
+    {
+      "tag": "facilities_library",
+      "patterns": ["library", "library facilities", "library timings", "books available"],
+      "responses": ["__KB__facilities.library"]
+    },
+    {
+      "tag": "facilities_sports",
+      "patterns": ["sports facilities", "sports ground", "gym", "gymnasium", "games"],
+      "responses": ["__KB__facilities.sports"]
+    },
+    {
+      "tag": "facilities_wifi",
+      "patterns": ["wifi", "internet facility", "wi-fi campus"],
+      "responses": ["__KB__facilities.wifi"]
+    },
+    {
+      "tag": "facilities_general",
+      "patterns": ["facilities", "campus facilities", "amenities", "what is available on campus", "infrastructure"],
+      "responses": ["__KB__facilities.campus"]
+    },
+    {
+      "tag": "events_techfest",
+      "patterns": ["techfest", "technical festival", "technical events"],
+      "responses": ["__KB__events.techfest"]
+    },
+    {
+      "tag": "events_cultural",
+      "patterns": ["cultural fest", "sanskruti", "cultural events", "festivals in college"],
+      "responses": ["__KB__events.cultural"]
+    },
+    {
+      "tag": "events_sports",
+      "patterns": ["sports meet", "sports events", "annual sports"],
+      "responses": ["__KB__events.sports"]
+    },
+    {
+      "tag": "events_workshops",
+      "patterns": ["workshops", "seminars", "guest lectures"],
+      "responses": ["__KB__events.workshops"]
+    },
+    {
+      "tag": "events_general",
+      "patterns": ["events", "college events", "what events happen", "functions"],
+      "responses": ["__KB__events.techfest"]
+    },
+    {
+      "tag": "contact_general",
+      "patterns": ["contact", "contact details", "how to contact", "phone number", "email address", "college contact"],
+      "responses": ["__KB__contact.phone"]
+    },
+    {
+      "tag": "contact_address",
+      "patterns": ["college address", "where is college located", "postal address"],
+      "responses": ["__KB__contact.address"]
+    },
+    {
+      "tag": "location_how",
+      "patterns": ["how to reach college", "how to come to college", "directions to college", "nearest railway station", "nearest airport"],
+      "responses": ["__KB__location.howto"]
+    },
+    {
+      "tag": "location_general",
+      "patterns": ["location", "where is college", "college location", "address", "kaha hai college"],
+      "responses": ["__KB__location.address"]
+    },
+    {
+      "tag": "hostel_facilities",
+      "patterns": ["hostel facilities", "hostel amenities", "hostel rooms", "hostel details"],
+      "responses": ["__KB__hostel.facilities"]
+    },
+    {
+      "tag": "hostel_rules",
+      "patterns": ["hostel rules", "hostel timings", "hostel regulations"],
+      "responses": ["__KB__hostel.rules"]
+    },
+    {
+      "tag": "hostel_general",
+      "patterns": ["hostel", "accommodation", "boarding", "pg facility"],
+      "responses": ["__KB__hostel.info"]
+    },
+    {
+      "tag": "faculty_general",
+      "patterns": ["faculty", "teachers", "professors", "teaching staff"],
+      "responses": ["__KB__faculty.info"]
+    },
+    {
+      "tag": "achievements_general",
+      "patterns": ["achievements", "accreditation", "naac", "nba", "rankings", "college ranking"],
+      "responses": ["__KB__achievements.info"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thankyou", "thx", "thanks a lot", "appreciated"],
+      "responses": ["You're welcome! 😊 Anything else I can help you with?", "Happy to help! Ask anytime.", "My pleasure! Feel free to ask more questions."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "see ya", "talk to you later", "exit", "quit"],
+      "responses": ["Goodbye! 👋 Have a great day!", "See you later! Come back anytime.", "Take care! Feel free to reach out anytime."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "what can you do", "how can you help", "what can i ask", "options", "features"],
+      "responses": ["I can help you with: <br>📚 <b>Courses</b> - B.Tech, M.Tech programs<br>🎯 <b>Admissions</b> - Process, eligibility, documents<br>💰 <b>Fees</b> - Tuition, hostel, other charges<br>🏢 <b>Departments</b> - All 8 departments<br>🏆 <b>Scholarships</b> - Government & institute<br>📝 <b>Examinations</b> - Pattern, schedule, results<br>💼 <b>Placements</b> - Stats, companies, training<br>🏠 <b>Hostel</b> - Facilities, fees, rules<br>📞 <b>Contact</b> - Phone, email, address<br><br>Just ask me anything!"]
+    }
+  ]
+}

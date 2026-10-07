@@ -1,0 +1,84 @@
+{
+  "admissions": {
+    "process": "Admissions to Sanjivani College of Engineering are based on MHT-CET/JEE Main scores for B.Tech programs. The admission process typically begins in June every year through the DTE Maharashtra centralized admission process (CAP rounds).",
+    "eligibility": "For B.Tech: 10+2 with Physics, Chemistry, and Mathematics with minimum 50% marks (45% for reserved category) and a valid MHT-CET or JEE Main score.",
+    "documents": "Required documents: 10th & 12th mark sheets, MHT-CET/JEE scorecard, domicile certificate, Aadhaar card, passport-size photos, caste certificate (if applicable), and migration certificate.",
+    "contact": "Admission Office: +91-2425-222111 | Email: admissions@sanjivani.org.in | Timing: 9 AM to 5 PM (Mon-Sat)."
+  },
+  "courses": {
+    "btech": "We offer B.Tech in: Computer Engineering, Information Technology, Electronics & Telecommunication, Mechanical Engineering, Civil Engineering, Electrical Engineering, and AI & Data Science. Duration: 4 years.",
+    "mtech": "M.Tech programs are offered in Computer Engineering, E&TC, and Mechanical Engineering. Duration: 2 years.",
+    "list": "Undergraduate (B.Tech): Computer, IT, E&TC, Mechanical, Civil, Electrical, AI & DS. Postgraduate (M.Tech): Computer, E&TC, Mechanical. Also Ph.D. programs in select departments."
+  },
+  "fees": {
+    "btech": "B.Tech tuition fee is approximately ₹1,20,000 per year. Additional development and exam fees apply.",
+    "mtech": "M.Tech tuition fee is approximately ₹1,00,000 per year.",
+    "hostel": "Hostel fees (including mess): ₹60,000 per year for both boys and girls hostels.",
+    "other": "Other fees: Development fee ₹10,000/year, Exam fee ₹2,500/semester, Library deposit ₹2,000 (one-time, refundable)."
+  },
+  "departments": {
+    "computer": "The Department of Computer Engineering is one of the largest departments with modern computer labs, experienced faculty, and strong industry collaborations. It offers B.Tech, M.Tech, and Ph.D. programs with focus on AI, ML, Cloud Computing, and Cybersecurity.",
+    "it": "The Information Technology department focuses on software development, database systems, networking, and web technologies. It has well-equipped labs and industry-aligned curriculum.",
+    "entc": "The Electronics & Telecommunication department offers courses in VLSI, Embedded Systems, Signal Processing, and Communication. It has specialized labs for IoT and Robotics.",
+    "mechanical": "The Mechanical Engineering department features workshops, CAD/CAM labs, thermal labs, and industrial collaborations with leading manufacturing companies.",
+    "civil": "The Civil Engineering department offers courses in structural engineering, surveying, transportation, and environmental engineering with well-equipped testing labs.",
+    "electrical": "The Electrical Engineering department covers power systems, control systems, electrical machines, and renewable energy with modern laboratory facilities.",
+    "aids": "The AI & Data Science department is a new-age department offering specialized courses in Machine Learning, Deep Learning, Big Data, and Data Analytics.",
+    "list": "Departments: Computer Engineering, Information Technology, Electronics & Telecommunication, Mechanical, Civil, Electrical, AI & Data Science, and First Year Engineering."
+  },
+  "scholarships": {
+    "government": "Government scholarships: Post-Matric Scholarship (SC/ST/OBC), EBC (Economically Backward Class), Rajarshi Shahu Maharaj Scholarship, Minority Scholarship, and Central Sector Scholarship.",
+    "institute": "Institutional scholarships: Merit-based scholarship for top rankers, Sports scholarship, and Financial aid for economically weaker students.",
+    "process": "To apply: Visit MahaDBT portal (mahadbt.maharashtra.gov.in), register with your details, upload documents, and submit before the deadline."
+  },
+  "examinations": {
+    "pattern": "Examination pattern: Internal Assessment (20 marks), Mid-Semester Exam (20 marks), End-Semester Exam (60 marks). Total: 100 marks per subject.",
+    "schedule": "Exams are conducted semester-wise. End-semester exams are held in November-December (odd sem) and May-June (even sem).",
+    "results": "Results are published on the Savitribai Phule Pune University portal (unipune.ac.in) within 45 days of exam completion.",
+    "revaluation": "Revaluation facility is available within 15 days of result declaration. Apply through the exam section with prescribed fees."
+  },
+  "placements": {
+    "stats": "Placement statistics: 85%+ placement rate. Average package: ₹4.5 LPA. Highest package: ₹12 LPA. 100+ companies visit every year.",
+    "companies": "Top recruiters: TCS, Infosys, Wipro, Cognizant, Capgemini, Persistent Systems, Bajaj Auto, L&T, Tech Mahindra, and many more.",
+    "training": "Placement training includes aptitude classes, coding bootcamps, mock interviews, soft-skill development, and internship opportunities from the 3rd year.",
+    "internship": "Internships are offered in the 6th and 7th semesters with stipend ranging from ₹5,000 to ₹25,000 per month."
+  },
+  "facilities": {
+    "campus": "Campus facilities: Central Library (50,000+ books), Digital Library, High-speed Wi-Fi, Sports ground, Gymnasium, Canteen, Medical room, Bank/ATM, and Transportation.",
+    "library": "Central Library: 50,000+ books, 100+ journals, IEEE/Springer/DELNET access, digital reading room. Open 8 AM to 8 PM on weekdays.",
+    "sports": "Sports facilities: Cricket ground, Football field, Basketball court, Volleyball court, Indoor games (chess, carrom, table tennis), and Gymnasium.",
+    "wifi": "High-speed Wi-Fi is available across the campus including hostels, library, and all departments. Login credentials are provided at the time of admission."
+  },
+  "events": {
+    "techfest": "Sanjivani Techfest is our annual technical festival featuring coding competitions, robotics, project exhibitions, and guest lectures from industry experts. Usually held in February.",
+    "cultural": "'Sanskruti' is our annual cultural fest with dance, music, drama, fashion shows, and celebrity performances. Held in January every year.",
+    "sports": "Annual Sports Meet is organized in December with inter-departmental competitions in cricket, football, volleyball, athletics, and indoor games.",
+    "workshops": "Regular workshops and seminars on AI, IoT, Blockchain, Cybersecurity, Entrepreneurship, and soft skills are conducted throughout the year."
+  },
+  "contact": {
+    "address": "Sanjivani College of Engineering, Sahajanand Nagar, Kopargaon, Ahmednagar, Maharashtra - 423603.",
+    "phone": "Main Office: +91-2425-222111 | Admission: +91-2425-222112 | Fax: +91-2425-222113.",
+    "email": "General: info@sanjivani.org.in | Admissions: admissions@sanjivani.org.in | Placements: placements@sanjivani.org.in.",
+    "website": "Official website: www.sanjivani.org.in"
+  },
+  "location": {
+    "address": "We are located in Kopargaon, Ahmednagar district, Maharashtra - 423603.",
+    "howto": "How to reach: 60 km from Nashik, 250 km from Pune, 280 km from Mumbai. Nearest railway station: Kopargaon (2 km). Nearest airport: Shirdi (40 km).",
+    "map": "Located on the banks of Godavari river, near Shirdi (a major pilgrimage center)."
+  },
+  "hostel": {
+    "info": "Separate hostels for boys and girls with modern amenities.",
+    "facilities": "Hostel facilities: Wi-Fi, 24/7 security, mess with hygienic food, study rooms, hot water, laundry, and medical assistance. Capacity: 500+ students.",
+    "fees": "Hostel fees: ₹60,000 per year (including mess).",
+    "rules": "Hostel rules: Entry closes at 9 PM, visitors allowed only in designated areas, no smoking/alcohol, biometric attendance."
+  },
+  "faculty": {
+    "info": "Our college has 200+ highly qualified faculty members with M.Tech/Ph.D. degrees from reputed institutions. Many have industry experience and published research papers."
+  },
+  "achievements": {
+    "info": "Achievements: NAAC 'A' Grade accredited, NBA accredited programs, ranked among top engineering colleges in Maharashtra, consistent university rank holders, and strong research output."
+  },
+  "about": {
+    "info": "Sanjivani College of Engineering, Kopargaon was established in 1983. It's an autonomous institute affiliated to Savitribai Phule Pune University. We offer UG, PG, and Ph.D. programs with a focus on holistic development of students."
+  }
+}
